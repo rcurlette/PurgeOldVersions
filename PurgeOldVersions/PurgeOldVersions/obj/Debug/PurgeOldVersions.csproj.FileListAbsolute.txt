@@ -4,3 +4,6 @@ c:\rc\code\CoreServiceConsoleApps\PurgeOldVersions\PurgeOldVersions\bin\Debug\Pu
 c:\rc\code\CoreServiceConsoleApps\PurgeOldVersions\PurgeOldVersions\bin\Debug\PurgeOldVersions.pdb
 c:\rc\code\CoreServiceConsoleApps\PurgeOldVersions\PurgeOldVersions\obj\Debug\PurgeOldVersions.exe
 c:\rc\code\CoreServiceConsoleApps\PurgeOldVersions\PurgeOldVersions\obj\Debug\PurgeOldVersions.pdb
+C:\RC\code\core-service-scripts\PurgeOldVersions\PurgeOldVersions\bin\Debug\PurgeOldVersions.exe.config
+C:\RC\code\core-service-scripts\PurgeOldVersions\PurgeOldVersions\obj\Debug\PurgeOldVersions.exe
+C:\RC\code\core-service-scripts\PurgeOldVersions\PurgeOldVersions\obj\Debug\PurgeOldVersions.pdb
