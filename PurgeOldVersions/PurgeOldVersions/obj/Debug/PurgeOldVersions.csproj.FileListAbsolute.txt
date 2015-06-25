@@ -7,3 +7,10 @@ c:\rc\code\CoreServiceConsoleApps\PurgeOldVersions\PurgeOldVersions\obj\Debug\Pu
 C:\RC\code\core-service-scripts\PurgeOldVersions\PurgeOldVersions\bin\Debug\PurgeOldVersions.exe.config
 C:\RC\code\core-service-scripts\PurgeOldVersions\PurgeOldVersions\obj\Debug\PurgeOldVersions.exe
 C:\RC\code\core-service-scripts\PurgeOldVersions\PurgeOldVersions\obj\Debug\PurgeOldVersions.pdb
+C:\RC\code\core-service-scripts\PurgeOldVersions\PurgeOldVersions\bin\Debug\PurgeOldVersions.exe.manifest
+C:\RC\code\core-service-scripts\PurgeOldVersions\PurgeOldVersions\bin\Debug\PurgeOldVersions.application
+C:\RC\code\core-service-scripts\PurgeOldVersions\PurgeOldVersions\bin\Debug\PurgeOldVersions.exe
+C:\RC\code\core-service-scripts\PurgeOldVersions\PurgeOldVersions\bin\Debug\PurgeOldVersions.pdb
+C:\RC\code\core-service-scripts\PurgeOldVersions\PurgeOldVersions\obj\Debug\PurgeOldVersions.csprojResolveAssemblyReference.cache
+C:\RC\code\core-service-scripts\PurgeOldVersions\PurgeOldVersions\obj\Debug\PurgeOldVersions.exe.manifest
+C:\RC\code\core-service-scripts\PurgeOldVersions\PurgeOldVersions\obj\Debug\PurgeOldVersions.application
