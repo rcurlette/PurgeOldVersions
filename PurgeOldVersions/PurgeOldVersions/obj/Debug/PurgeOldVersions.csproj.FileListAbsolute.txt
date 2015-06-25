@@ -1,0 +1,6 @@
+c:\rc\code\CoreServiceConsoleApps\PurgeOldVersions\PurgeOldVersions\bin\Debug\PurgeOldVersions.exe.config
+c:\rc\code\CoreServiceConsoleApps\PurgeOldVersions\PurgeOldVersions\obj\Debug\PurgeOldVersions.csprojResolveAssemblyReference.cache
+c:\rc\code\CoreServiceConsoleApps\PurgeOldVersions\PurgeOldVersions\bin\Debug\PurgeOldVersions.exe
+c:\rc\code\CoreServiceConsoleApps\PurgeOldVersions\PurgeOldVersions\bin\Debug\PurgeOldVersions.pdb
+c:\rc\code\CoreServiceConsoleApps\PurgeOldVersions\PurgeOldVersions\obj\Debug\PurgeOldVersions.exe
+c:\rc\code\CoreServiceConsoleApps\PurgeOldVersions\PurgeOldVersions\obj\Debug\PurgeOldVersions.pdb
