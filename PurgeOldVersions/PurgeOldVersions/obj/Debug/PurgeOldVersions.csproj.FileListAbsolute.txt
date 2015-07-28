@@ -1,19 +1,10 @@
-c:\rc\code\CoreServiceConsoleApps\PurgeOldVersions\PurgeOldVersions\bin\Debug\PurgeOldVersions.exe.config
-c:\rc\code\CoreServiceConsoleApps\PurgeOldVersions\PurgeOldVersions\obj\Debug\PurgeOldVersions.csprojResolveAssemblyReference.cache
-c:\rc\code\CoreServiceConsoleApps\PurgeOldVersions\PurgeOldVersions\bin\Debug\PurgeOldVersions.exe
-c:\rc\code\CoreServiceConsoleApps\PurgeOldVersions\PurgeOldVersions\bin\Debug\PurgeOldVersions.pdb
-c:\rc\code\CoreServiceConsoleApps\PurgeOldVersions\PurgeOldVersions\obj\Debug\PurgeOldVersions.exe
-c:\rc\code\CoreServiceConsoleApps\PurgeOldVersions\PurgeOldVersions\obj\Debug\PurgeOldVersions.pdb
 C:\RC\code\core-service-scripts\PurgeOldVersions\PurgeOldVersions\bin\Debug\PurgeOldVersions.exe.config
-C:\RC\code\core-service-scripts\PurgeOldVersions\PurgeOldVersions\obj\Debug\PurgeOldVersions.exe
-C:\RC\code\core-service-scripts\PurgeOldVersions\PurgeOldVersions\obj\Debug\PurgeOldVersions.pdb
-<<<<<<< HEAD
-=======
 C:\RC\code\core-service-scripts\PurgeOldVersions\PurgeOldVersions\bin\Debug\PurgeOldVersions.exe.manifest
 C:\RC\code\core-service-scripts\PurgeOldVersions\PurgeOldVersions\bin\Debug\PurgeOldVersions.application
 C:\RC\code\core-service-scripts\PurgeOldVersions\PurgeOldVersions\bin\Debug\PurgeOldVersions.exe
 C:\RC\code\core-service-scripts\PurgeOldVersions\PurgeOldVersions\bin\Debug\PurgeOldVersions.pdb
-C:\RC\code\core-service-scripts\PurgeOldVersions\PurgeOldVersions\obj\Debug\PurgeOldVersions.csprojResolveAssemblyReference.cache
 C:\RC\code\core-service-scripts\PurgeOldVersions\PurgeOldVersions\obj\Debug\PurgeOldVersions.exe.manifest
 C:\RC\code\core-service-scripts\PurgeOldVersions\PurgeOldVersions\obj\Debug\PurgeOldVersions.application
->>>>>>> 839a55b306bfe33f569d0ea194a0113cfe0536f2
+C:\RC\code\core-service-scripts\PurgeOldVersions\PurgeOldVersions\obj\Debug\PurgeOldVersions.exe
+C:\RC\code\core-service-scripts\PurgeOldVersions\PurgeOldVersions\obj\Debug\PurgeOldVersions.pdb
+C:\RC\code\core-service-scripts\PurgeOldVersions\PurgeOldVersions\obj\Debug\PurgeOldVersions.csprojResolveAssemblyReference.cache

@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
 using System.Net;
+using System.Text;
 using System.Web;
+using System.Xml.Linq;
 using Tridion.ContentManager.CoreService.Client;
 
 namespace PurgeOldVersions
@@ -25,10 +27,21 @@ namespace PurgeOldVersions
 
         protected static void Main()
         {
-            string publications = ConfigurationManager.AppSettings["publications"];
+            string allPublications = ConfigurationManager.AppSettings["allPublications"];
+            string publications = "";
+
+            if (allPublications.ToLower() == "true")
+            {
+                publications = GetAllPublications();
+            }
+            else
+            {
+                publications = ConfigurationManager.AppSettings["publications"];
+            }
+
             string contentFolders = ConfigurationManager.AppSettings["contentFolders"];
             string structureGroups = ConfigurationManager.AppSettings["structureGroups"];
-            UInt16 versionsToKeep = 2;
+            UInt16 versionsToKeep = UInt16.Parse(ConfigurationManager.AppSettings["versionsToKeep"]);
 
             string[] pubs = publications.Split(',');
             foreach(string pubUri in pubs)
@@ -44,6 +57,32 @@ namespace PurgeOldVersions
                 Console.ReadLine();
             }
             
+        }
+
+        private static string GetAllPublications()
+        {
+            List<string> pubs = new List<string>();
+            using (CoreServiceClient client = new CoreServiceClient(endpointName))
+            {
+                var credentials = CredentialCache.DefaultNetworkCredentials;
+                if (!string.IsNullOrWhiteSpace(userName) && !string.IsNullOrWhiteSpace(password))
+                {
+                    credentials = new NetworkCredential(userName, password);
+                }
+                client.ChannelFactory.Credentials.Windows.ClientCredential = credentials;
+                
+                PublicationsFilterData filter = new PublicationsFilterData();
+                XElement publications = client.GetSystemWideListXml(filter);
+                XNamespace ns = publications.GetNamespaceOfPrefix("tcm");
+                foreach(XElement item in publications.DescendantNodes())
+                {
+                    pubs.Add(item.Attribute("ID").Value);
+                }
+            }
+
+            string allPubs = string.Join(", ", Array.ConvertAll(pubs.ToArray(), i => i.ToString()));
+            
+            return allPubs;
         }
 
         private static string GetLocalUri(string pubUri, string localUri)

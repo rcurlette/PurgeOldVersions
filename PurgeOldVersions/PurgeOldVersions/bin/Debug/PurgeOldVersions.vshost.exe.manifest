@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
-  <assemblyIdentity version="1.0.0.0" name="MyApplication.app"/>
-  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v2">
-    <security>
-      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
-        <requestedExecutionLevel level="asInvoker" uiAccess="false"/>
-      </requestedPrivileges>
-    </security>
-  </trustInfo>
-</assembly>
-=======
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
   <asmv1:assemblyIdentity name="PurgeOldVersions.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
@@ -110,25 +97,24 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PurgeOldVersions.exe" size="10160">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PurgeOldVersions.exe" size="11696">
       <assemblyIdentity name="PurgeOldVersions" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Uhx/jcI/jbGNfUykLY8KCeO/E5gWQAFF5Peb1e5fVcA=</dsig:DigestValue>
+        <dsig:DigestValue>Lf3WHdTj0UMLlOYaaJdGWFUvZwYEr9me4zk4KtO1xhg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="PurgeOldVersions.exe.config" size="13206">
+  <file name="PurgeOldVersions.exe.config" size="13394">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>eUH8Yc5+9NwRaaKXBLwIfHBXRKZN7cWbgQc7meYPRno=</dsig:DigestValue>
+      <dsig:DigestValue>ug5dS22zqz4y20YMFm4SakC2os+92lC6I8QrhMib4hg=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
->>>>>>> 839a55b306bfe33f569d0ea194a0113cfe0536f2

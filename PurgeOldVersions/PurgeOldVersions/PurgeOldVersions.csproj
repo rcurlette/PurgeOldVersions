@@ -11,8 +11,6 @@
     <AssemblyName>PurgeOldVersions</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-<<<<<<< HEAD
-=======
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>C:\RC\code\core-service-scripts\PurgeOldVersions\Deployment\</PublishUrl>
     <Install>true</Install>
@@ -29,7 +27,6 @@
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
->>>>>>> 839a55b306bfe33f569d0ea194a0113cfe0536f2
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -50,8 +47,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-<<<<<<< HEAD
-=======
   <PropertyGroup>
     <ManifestCertificateThumbprint>A8D8CEB66BA962FA71E110FBE92656E89C3AEFDF</ManifestCertificateThumbprint>
   </PropertyGroup>
@@ -64,7 +59,6 @@
   <PropertyGroup>
     <SignManifests>true</SignManifests>
   </PropertyGroup>
->>>>>>> 839a55b306bfe33f569d0ea194a0113cfe0536f2
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -94,10 +88,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-<<<<<<< HEAD
-=======
-    <None Include="PurgeOldVersions_TemporaryKey.pfx" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
@@ -115,7 +108,6 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
->>>>>>> 839a55b306bfe33f569d0ea194a0113cfe0536f2
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
