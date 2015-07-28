@@ -15,7 +15,7 @@ Please set the following variables in the PurgeOldVersions.exe.config file.
 - *structureGroups* - the structure groups to parse and remove old versions of pages.  
 - *runInInteractiveMode* - displays the output in a console window
 
-_If the variables for *contentFolders* or *structureGroups* is empty, it will not parse them.  Also, the folder in the right Publication will be done by the script, so it's usually the folder in the GLEN level.
+_If the variables for *contentFolders* or *structureGroups* is empty, it will not parse them.  Also, the folder in the right Publication will be done by the script, so it's usually the folder in the parent level.
 
 # Interactive Mode or Scheduled:
 - If running from a workstation and _not_ the server, update the Core Service binding paramters.  Change http://localhost to the URL of your CMS server.
